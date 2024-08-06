@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <title>Playa</title>
+  </head>
+  <body>
+    <header class="position-fixed w-100 z-1">
+      <nav class="navbar navbar-dark bg-primary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <i class="fa-solid fa-house"></i>
+          </a>
+
+          <h1 style="color: white; font-family: cursive">Costa Rica</h1>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-success"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5
+                style="font-family: cursive"
+                class="offcanvas-title"
+                id="offcanvasDarkNavbarLabel"
+              >
+                Pura Vida!!!
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./playa.html">Playas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./volcanes.html">Volcanes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./montana.html">Montaña</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./servicios.html">Servicios</a>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Buscar"
+                  aria-label="Search"
+                />
+                <button class="btn btn-primary" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-info">
+      <!-- <img src="./assets/images/playa fondo.jpeg" alt="500"> -->
+      <section class="position-relative">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-6 bg-white row align-items-center">
+              <p id="textos">
+                Playas de Costa Rica se encuentran en dos preciosas costas. El
+                Caribe y el Pacífico. Estas dos costas están separadas por
+                majestuosas montañas verdes e imponentes volcanes. Las costas
+                del Pacífico y del Caribe de Costa Rica son inmensamente
+                distintas entre sí. Muchas de ellas proporcionan una ventaja
+                extraordinaria para los viajeros que miran satisfacer sus deseos
+                de las vacaciones de acuerdo a sus gustos. Cada región tiene su
+                estilo cultural único. Por ejemplo, patrones climáticos,
+                ubicación geográfica, ambiente, vida silvestre y belleza
+                exótica. Venga y eche un vistazo a las muchas playas que
+                tenemos. Los visitantes podrán observar monos cariblanca y monos
+                aulladores que se exhibirán en los árboles. Los pavos salvajes,
+                coatis y ciervos son también parte de la mezcla. Por encima de
+                todo, la recompensa al final es una preciosa playa de hermosa
+                arena y el agua del océano de colores impresionantes. El agua es
+                tan salada que fácilmente puede flotar con los pelícanos. Costa
+                Rica es llamado así con muy buenas razones.
+              </p>
+            </div>
+            <div
+              class="p-0 col-12 col-md-6 bg-white text-center row align-items-center"
+            >
+              <iframe
+                width="450"
+                height="350"
+                src="https://www.youtube.com/embed/rWjNMXnUBNE?si=AY8UVszn2v5nnfoj"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div>
+        <h2>Playas mas visitadas</h2>
+      </div>
+
+      <section class="position-relative">
+        <div class="container-fluid">
+          <div class="row">
+            <h3>Playa Ocotal</h3>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <img
+                id="img_info"
+                src="./assets/images/playa Ocotal.jpg"
+                max-width="350"
+              />
+            </div>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <p>
+                Situada en la entrada del golfo de Papagayo, esta pequeña playa
+                es una de las más vírgenes de Costa Rica. Es perfecta para nadar
+                y hacer snorkel. Es conocida por ser uno de los mejores lugares
+                para la práctica de buceo, debido a la cantidad de vida marina
+                de sus aguas y la belleza del entorno natural que la rodea.
+                Desde aquí salen multitud de excursiones a la Isla Catalina, ya
+                que se encuentra bastante cerca y es el sitio perfecto para ver
+                a la manta raya gigante. Además, también está cerca de las
+                Playas del Coco, zona donde están algunas de las playas más
+                espectaculares.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="position-relative">
+        <div class="container-fluid">
+          <div class="row">
+            <h3>Playa Manuel Antonio</h3>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <img
+                id="img_info"
+                src="./assets/images/manuel-antonio.jpg"
+                max-width="350"
+              />
+            </div>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <p>
+                Las playas del Parque Nacional de Manuel Antonio son de las
+                mejores del país. Tanto el parque como su costa son los destinos
+                más populares de Costa Rica. La zona está protegida y cuenta con
+                cuatro playas muy bonitas: Espadilla Sur, Manuel Antonio,
+                Escondido y Playita. La playa Manuel Antonio es la más famosa
+                del país, tiene una perfecta forma de herradura y sus colores
+                son impactantes. Combina el verde oscuro del follaje, con el
+                blanco de la arena y el azul de sus aguas. Tened en cuenta que
+                al ser un espacio protegido, la entrada de turistas está
+                limitada a 600 los días laborales y a 800 los festivos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="position-relative">
+        <div class="container-fluid">
+          <div class="row">
+            <h3>Playa Hermosa</h3>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <img
+                id="img_info"
+                src="./assets/images/playa-hermosa.jpg"
+                max-width="350"
+              />
+            </div>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <p>
+                Esta playa es uno de los destinos preferidos para los que buscan
+                un lugar de ensueño en Costa Rica, ya que combina naturaleza,
+                tranquilidad y olas increíbles para practicar surf. Forma parte
+                del Refugio Nacional de Vida Silvestre Playa Hermosa – Punta
+                Mala, un área de conservación natural dedicada a proteger el
+                desove de la tortuga lora, la más pequeña de las especies de
+                tortugas marinas. Publicidad Además de ser una playa perfecta
+                para los surfistas más experimentados, la zona ofrece unos
+                hermosos paisajes, senderos para pasear en familia y sitios de
+                descanso bajo inmensos cocoteros.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="position-relative">
+        <div class="container-fluid">
+          <div class="row">
+            <h3>Playa Conchal</h3>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <img
+                id="img_info"
+                src="./assets/images/playa-conchal.jpg"
+                max-width="350"
+              />
+            </div>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <p>
+                Se trata de una playa blanca y brillante hecha de pequeñas
+                conchas rotas y coral. El mar tiene mucha claridad y presenta un
+                color azul turquesa. Es una playa totalmente virgen y tan
+                tranquila como lo era hace veinte años. Cuenta con las aguas más
+                claras de toda la Costa de Oro de Guanacaste, grandes olas y,
+                durante casi todo el año, cielos despejados de color azul. Entre
+                las actividades que ofrece, destaca el snorkel, ya que es una
+                zona con gran biodiversidad marina.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="position-relative">
+        <div class="container-fluid">
+          <div class="row">
+            <h3>Playa Punta Uva</h3>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <img
+                id="img_info"
+                src="./assets/images/punta-uva.jpg"
+                max-width="350"
+              />
+            </div>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <p>
+                Punta Uva se encuentra al sur de Cahuita y justo al norte de la
+                frontera con Panamá. Esta playa se ha mantenido virgen debido a
+                las leyes de preservación del entorno, puesto que todos los
+                edificios deben permanecer a 50 metros de la costa. Su nombre
+                viene del árbol de uva de mar que crece a lo largo de la playa.
+                Es famosa por sus impresionantes jardines de mariposas, que
+                cuentan con algunas de las mariposas más exóticas de Costa Rica
+                como la Morpho Azul. Además, también se encuentra cerca de la
+                Reserva Indígena Bri Bri.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="position-relative">
+        <div class="container-fluid">
+          <div class="row">
+            <h3>Playa Samara</h3>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <img
+                id="img_info"
+                src="./assets/images/playa-samara.jpg"
+                max-width="350"
+              />
+            </div>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <p>
+                La playa de Sámara es una de las mejores playas de Costa Rica.
+                Rodeada de una gran extensión de arena blanca y por un entorno
+                de frondosos bosques tropicales, posee unas aguas repletas de
+                vida marina. Es una playa ideal para nadar y practicar otros
+                deportes acuáticos, pero además, sus arrecifes coralinos a pocos
+                metros de la costa la convierten en un lugar perfecto para hacer
+                snorkel y buceo. Publicidad La pequeña población turística de
+                Sámara es el punto de partida para visitar importantes destinos
+                de ecoturismo, como el Refugio de Vida Silvestre Camaronal, que
+                da protección a cuatro especies de tortugas marinas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="position-relative">
+        <div class="container-fluid">
+          <div class="row">
+            <h3>Playa Puerto Viejo</h3>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <img
+                id="img_info"
+                src="./assets/images/puerto-viejo.jpg"
+                max-width="350"
+              />
+            </div>
+            <div class="p-0 col-12 col-md-6 bg-white row align-items-center">
+              <p>
+                Puerto Viejo es uno de los destinos más populares entre los
+                turistas que visitan Costa Rica. Tiene la misma fama que la zona
+                de Manuel Antonio, pero en esta ocasión en la orilla caribeña
+                del país. Cuenta con exuberantes bosques tropicales junto a la
+                orilla y kilómetros de arenas doradas bañadas por las cálidas
+                aguas del mar Caribe. La zona tiene un encanto especial. En este
+                extremo del país llueve mucho y por ello su vegetación es muy
+                frondosa. Una manera de comprobarlo es visitar los Parques
+                Nacional de Cahuita y Manzanillo que limitan con la línea de la
+                costa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer style="text-align: center" class="bg-primary" style="color: white">
+      <div>
+        <ul style="list-style: none; margin-top: 0">
+          <li>
+            <a href="https://www.facebook.com/?locale=es_LA"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://web.whatsapp.com/"> Costa Rica +506 8477 0000 </a>
+          </li>
+          <li style="color: white">2024 Company, Inc. All rights reserved.</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
